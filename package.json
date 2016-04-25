@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "d3": "^3.5.5",
-    "jsdom-jscore": "^0.1.0"
+    "jsdom-jscore": "^0.1.0",
+    "rnpm": "1.5.2",
+    "xcode": "0.8.4"
   },
   "repository": {
     "type": "git",
