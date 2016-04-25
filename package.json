@@ -20,5 +20,13 @@
   },
   "scripts": {
     "postinstall": "cd Libraries/ && git clone https://github.com/SVGKit/SVGKit.git"
+  },
+  "rnpm": {
+    "commands": {
+      "postlink": "node_modules/react-native-svgkit/scripts/rnpm-postlink.js"
+    },
+    "ios": {
+      "project": "Libraries/RNSvg.xcodeproj"
+    }
   }
 }
