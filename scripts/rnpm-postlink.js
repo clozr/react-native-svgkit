@@ -25,7 +25,7 @@ if (config.ios) {
         });
     }
 
-    ['libxml2'].forEach(function(name) {
+    ['libxml2.2'].forEach(function(name) {
         project.addFramework('usr/lib/' + name + '.tbd', {
             lastKnownFileType: 'sourcecode.text-based-dylib-definition',
             sourceTree: 'SDKROOT',
