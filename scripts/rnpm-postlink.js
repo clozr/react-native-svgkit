@@ -33,12 +33,12 @@ if (config.ios) {
         });
     });
 
-    ['CoreText.framework', 'QuartzCore.framework', 'CoreGraphics.framework', 'UIKit.framework', 'CoreImage.framework'].forEach(function(name) {
+    /*['CoreText.framework', 'QuartzCore.framework', 'CoreGraphics.framework', 'UIKit.framework', 'CoreImage.framework'].forEach(function(name) {
         project.addFramework(name, {
           sourceTree: 'SDKROOT',
           target: target,
         });
-    });
+    });*/
 
     fs.writeFileSync(pbxproj, project.writeSync());
 }
